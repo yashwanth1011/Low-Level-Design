@@ -14,11 +14,7 @@ public class Main {
         String carName = in.next();
         Vehicle vehicle = VI.getCar(carName);
         vehicle.driving();
-
-        
         in.close();
-        
-        
     }
     
 }
